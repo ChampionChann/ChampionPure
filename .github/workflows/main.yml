@@ -5,7 +5,7 @@ on:
   workflow_dispatch: 
   watch: 
    types: started 
-  repository_dispatch:
+  repository_dispatch: main
     types: sync-ChampionChann
 jobs: 
  repo-sync: 
